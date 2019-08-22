@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 822c2fca8ceb9411791d4c97716a48ac, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  BoardSetting:
+    BoardViewPrefab: {fileID: 7258700387326406655, guid: 9eb0ea4992cfc47489f68397471ade92,
+      type: 3}
+    Min: {x: 0, y: 0}
+    Max: {x: 12, y: 11}
+    MinNumberOfBubbles: 18
+    InitialRows: 3
+    InitialMaxSpawnExponent: 6
+    ExplosionExponent: 11
+  BubbleSetting:
+    ShowDebugText: 0
+    BubbleViewPrefab: {fileID: 7135002725767445051, guid: 177cbdf81f4a7452db9d65b08c63c000,
+      type: 3}
+    NextBubblesViewPrefab: {fileID: 2551812209235730893, guid: e64201177c6dc488c99731b7fce25846,
+      type: 3}
+    BubbleBurstViewPrefab: {fileID: 7112838492754051765, guid: d39d2143cc1f642b69043c5e4d9681e7,
+      type: 3}
+    BubbleSpeed: 30
+    MergeTime: 0.2
+    _exponentColors:
+    - {r: 0.9098039, g: 0.40392157, b: 0.5568628, a: 1}
+    - {r: 0.8862745, g: 0.34509805, b: 0.23137255, a: 1}
+    - {r: 0.99607843, g: 0.73333335, b: 0.18431373, a: 1}
+    - {r: 0.9019608, g: 0.5058824, b: 0.23137255, a: 1}
+    - {r: 0.4509804, g: 0.79607844, b: 0.31764707, a: 1}
+    - {r: 0.30588236, g: 0.81960785, b: 0.64705884, a: 1}
+    - {r: 0.4117647, g: 0.7411765, b: 0.9137255, a: 1}
+    - {r: 0.4392157, g: 0.5647059, b: 0.8509804, a: 1}
+    - {r: 0.81960785, g: 0.5686275, b: 0.80784315, a: 1}
+    - {r: 0.6039216, g: 0.43137255, b: 0.8156863, a: 1}
+    _bubbleSprites:
+    - {fileID: 21300000, guid: 241ca21646ba74a0ebeb5a4b038de20c, type: 3}
+    - {fileID: 21300000, guid: 856490255c4104c4799e208eb3c2bdd5, type: 3}
+  InputSetting:
+    InputViewPrefab: {fileID: 2325893565641457620, guid: 8f4235777c63e4607b01ea5db4f4200b,
+      type: 3}
+    TargetViewPrefab: {fileID: 5700423100895923247, guid: 3ba2f39fef03548329e53d9c0d8aed20,
+      type: 3}
+    TargetAlpha: 0.5
+    ShootInterval: 0.6
+  SfxSetting:
+    AudioViewPrefab: {fileID: 4799865394779835139, guid: e1ea380a044314c8a975a240d0ed559d,
+      type: 3}
+    _sfxFiles:
+    - SfxId: 0
+      AudioClip: {fileID: 8300000, guid: 3129e10cfe1d5490599209bbb24d9e78, type: 3}
+      MixerGroup: {fileID: 4235576063583304783, guid: 9db48e8559e3f4cb584f3eb1d7c2bfc9,
+        type: 2}
+    - SfxId: 1
+      AudioClip: {fileID: 8300000, guid: 41c461477a5a54de0bc9f0e3e3741b60, type: 3}
+      MixerGroup: {fileID: -4522076094281443286, guid: 9db48e8559e3f4cb584f3eb1d7c2bfc9,
+        type: 2}
+    - SfxId: 2
+      AudioClip: {fileID: 8300000, guid: 6c83936037fd2466f8201572e8a3c82e, type: 3}
+      MixerGroup: {fileID: -6825736573311841767, guid: 9db48e8559e3f4cb584f3eb1d7c2bfc9,
+        type: 2}

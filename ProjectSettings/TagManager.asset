@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Walls
+  - TopBoundary
+  - Bubble
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 443305831
+    locked: 0
+  - name: Bubbles Back
+    uniqueID: 2586034779
+    locked: 0
+  - name: Bubbles Main
+    uniqueID: 1896032259
+    locked: 0
+  - name: Bubbles Front
+    uniqueID: 3373460887
+    locked: 0
+  - name: Foreground
+    uniqueID: 3523182183
+    locked: 0
+  - name: UI
+    uniqueID: 2716878285
+    locked: 0
